@@ -16,8 +16,9 @@ public class Main {
         else {
             array[ i ]= array[ i ] ^ array [ i+1 ];
         }
-        System.out.print(array[i]+' ');
+        System.out.print( Integer.toString( array[ i ] )+' ' );
     }
-    System.out.print('\n');
+    System.out.print( '\n' );
+    input.close();
     }
 }
