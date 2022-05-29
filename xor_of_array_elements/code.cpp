@@ -11,7 +11,9 @@ int main() {
         if( i == n-1 ) {
             array[ i ]= array[ i ] ^ 0;
         }
-        array[ i ]= array[ i ] ^ array [ i+1 ];
+        else {
+            array[ i ]= array[ i ] ^ array [ i+1 ];
+        }
     }
     for( int i=0; i<n; i++ ) {
         std::cout<< array[ i ]<< ' ';
