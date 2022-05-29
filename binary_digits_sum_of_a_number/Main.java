@@ -2,7 +2,7 @@ package code_kata.binary_digits_sum_of_a_number;
 import java.util.*;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main( String[] args ) {
         var input= new Scanner( System.in );
         int n= input.nextInt();
         int sum= 0;
@@ -11,7 +11,7 @@ public class Main {
             sum+= rem;
             n/= 2;   
         }
-        System.out.println( Integer.toString(sum) );
+        System.out.println( Integer.toString( sum ) );
         input.close();
     }
 }
