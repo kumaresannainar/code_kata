@@ -1,4 +1,3 @@
-package code_kata.xor_of_array_elements;
 import java.util.*;
 
 public class Main {

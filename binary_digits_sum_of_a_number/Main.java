@@ -1,4 +1,3 @@
-package code_kata.binary_digits_sum_of_a_number;
 import java.util.*;
 
 public class Main {
